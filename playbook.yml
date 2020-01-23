@@ -1,6 +1,10 @@
 - name: Deploy a web application
   hosts: db_and_web
   become: yes
+  tasks:
+    - name: update the system
+      apt:
+        update_cache: yes
   roles:
     - python
     - mysql_db
