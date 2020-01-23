@@ -1,5 +1,4 @@
 target1 ansible_host=localhost
 #db_and_web ansible_host=10.128.0.3
 [db_and_web]
-10.128.0.4
-10.128.0.3
+10.128.0.5 
